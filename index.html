@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="eng">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <title>Jobs at FreeCodeCamp</title>
+	  <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<body>
+    <div class="register-wrapper">
+        <div class="register-block">
+            <h1 id="title" class="register-title">Job application</h1>
+            <p id="description">Fill the form below to finish your application for this position</p><hr>
+            <form id="survey-form" action="">
+            <fieldset>
+                <legend>Basic Info</legend>
+                <label id="name-label">Enter your name<input type="text" id="name" placeholder="enter your name" required></label>
+                <label id="email-label">Enter your email<input type="email" id="email" placeholder="enter your email" required></label>
+                <label id="number-label">Age<span class="thin">(optional)</span><input id="number" type="number" min="16" max="80" placeholder="age"></label>
+            </fieldset>
+            <fieldset>
+                <label>How did you hear about us?</label>
+                    <select id="dropdown">
+                        <option>(select one)</option>
+                        <option>friends and colleagues</option>
+                        <option>Social media</option>
+                        <option>Other</option>
+                    </select>
+                
+            </fieldset>
+           
+            <fieldset>
+                <legend>Skill Assessment</legend>
+                <label>Which of this fields are you familiar with ? <span class="thin">(Check all that apply)</span></label>
+                <label><input type="checkbox" value="1" />Front-end development</label>
+                <label><input type="checkbox" value="2" />Back-end devlopment</label>
+                <label><input type="checkbox" value="3" />Data Visualization</label>
+                <label><input type="checkbox" value="4" />QA testing</label>
+                <label><input type="checkbox" value="5" />Community managment</label>
+                <label><input type="checkbox" value="6" />Data analysis</label>
+                <label><input type="checkbox" value="7" />Artificial Intelligence</label>
+                <label><input type="checkbox" value="8" />Machine Learning</label>
+                <label><input type="checkbox" value="9" />Programming IoT devices</label>
+                <label><input type="checkbox" value="10" />Information security</label>
+                <label><input type="checkbox" value="11"/>Other</label>
+            </fieldset>
+
+            <fieldset>
+                <label>Why do you wanna join us? <span class="thin">(in 2-4 lines)</span>
+                    <textarea placeholder="  start typing.." rows='10'></textarea>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label> Would you like to join us ?</label>
+                <label><input type="radio" name="Join request" value="1" class="inline">Yes absolutely</label>
+                <label><input type="radio" name="Join request" value="2" class="inline">Let me think about it <a href="freecodecamp.org">(click here to learn more)</a></label> 
+                <label>
+                    <input type="checkbox" value="12" name="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+	            </label>
+            </fieldset>
+            <fieldset>
+                <label>Upload your Curriculum below<span class="thin"> (keep it short)</span></label> 
+                    <label><input type="file"></label>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
