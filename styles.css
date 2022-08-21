@@ -21,11 +21,8 @@ body {
     padding-bottom: 2em;
   }
   
-  fieldset {
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
-  }
+ 
+
 
   legend {position: inherit;
 text-align: center;
@@ -210,5 +207,14 @@ fieldset {
     padding: 0;
     margin: 0;
 }
+
+fieldset a {color: hsl(228, 45%, 44%);}
+  fieldset a:hover {color:  rgba(131,58,180,1)}
+
+.attribution { font-size: 20px; text-align: center;
+color:white; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a:hover { color:  rgba(131,58,180,1) }
   
   
